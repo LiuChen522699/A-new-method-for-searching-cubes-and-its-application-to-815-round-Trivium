@@ -1,0 +1,85 @@
+Round_815 Poly with degree = 0, number of terms = 1; - No.12 Cube: v0v1v2v3v4v5v6v8v10v12v14v15v16v17v18v19v20v23v25v27v29v31v34v36v38v40v42v44v46v49v51v53v57v58v59v60v63v66v67v70v77v79 (I5)
+# k35
+# f(k58 = 1) = k(35)
+
+f1 = k(35);
+
+
+
+Round_815 Poly with degree = 0, number of terms = 1; - No.62 Cube: v0v1v2v3v4v5v6v8v10v13v15v16v17v19v21v23v25v27v29v30v31v32v33v36v39v41v46v47v50v52v54v56v58v60v61v65v67v69v71v73v75v79 (I8)
+# k58k60
+# f(k58 = 1) = k(60)
+
+f2 = k(60);
+
+
+
+Round_815 Poly with degree = 0, number of terms = 1; - No.63 Cube: v0v1v2v3v4v5v6v8v10v13v15v16v17v18v19v21v23v25v27v29v30v31v32v33v36v39v41v46v47v50v52v54v56v58v61v65v67v69v71v73v74v75v79 (I9)
+# k37k58
+# f(k58 = 1) = k(37)
+
+f3 = k(37);
+
+
+
+Round_815 Poly with degree = 0, number of terms = 2; - No.88 Cube: v0v1v2v3v4v5v6v8v10v13v15v16v17v18v19v21v23v25v27v29v30v31v33v36v39v41v46v47v50v52v54v56v58v60v61v63v65v67v69v71v73v74v75v79 (I9)
+# k48k58 + k58
+# f(k58 = 1) = k(48) + 1
+
+f4 = k(48) + 1;
+
+
+
+Round_815 Poly with degree = 0, number of terms = 21; - No.5 Cube: v0v1v2v3v4v5v6v8v10v13v15v16v17v19v21v23v25v27v29v30v31v32v33v36v39v41v46v47v50v52v54v56v58v60v61v63v65v67v69v71v73v74v75v79 (I9)
+# k39k43k58 + k39k43 + k39k58k68k69 + k39k58k70 + k39k68k69 + k39k70 + k39 + k43k58k64k65 + k43k58k66 + k43k64k65 + k43k66 + k58k64k65k68k69 + k58k64k65k70 + k58k66k68k69 + k58k66k70 + k64k65k68k69 + k64k65k70 + k64k65 + k66k68k69 + k66k70 + k66
+# f(k58 = 1) = k(39) + k(64)*k(65) + k(66) 
+
+f5 = k(39) + k(64)*k(65) + k(66);
+
+
+
+Round_815 Poly with degree = 0, number of terms = 3; - No.0 Cube: v0v1v2v3v4v5v6v7v8v9v10v13v15v16v17v18v20v22v24v26v28v30v31v32v33v35v37v38v39v41v42v45v48v50v52v54v61v63v65v67v70v73v74v78 (I10)
+# k0k68 + k1 + k43
+# f(k58 = 1) = k(0)*k(68) + k(1) + k(43)
+
+f6 = k(0)*k(68)+k(1)+k(43);
+
+
+
+Round_815 Poly with degree = 0, number of terms = 4; - No.131 Cube: v0v1v2v3v4v5v6v8v9v10v13v15v16v17v18v19v21v23v25v27v29v30v31v32v33v36v39v41v46v47v50v52v54v56v58v60v61v65v67v69v71v74v75v79 (I9)
+# k41k58 + k58k66k67 + k58k68 + k58
+# f(k58 = 1) = k(41) + k(66)*k(67) + k(68) + 1
+
+f7 = k(41) + k(66)*k(67) + k(68) + 1;
+
+
+
+Round_815 Poly with degree = 0, number of terms = 9; - No.186 Cube: v0v1v2v3v4v5v6v8v10v13v15v16v17v18v21v23v25v27v29v30v31v32v33v36v39v41v46v47v50v52v54v56v58v60v61v65v67v69v71v73v74v75v79 (I9)
+# k8k58 + k24k25k58 + k26k58 + k33k34k58 + k35k58 + k39k58 + k58k64k65 + k58k66 + k58k68
+# f(k58 = 1) = k(8) + k(24)*k(25) + k(26) + k(33)*k(34) + k(35) + k(39) + k(64)*k(65) + k(66) + k(68) 
+
+f8 = k(8) + k(24)*k(25) + k(26) + k(33)*k(34) + k(35) + [k(39) + k(64)*k(65) + k(66)] + k(68) ;
+
+
+
+Round_815 Poly with degree = 0, number of terms = 22; - No.69 Cube: v0v1v2v3v4v5v6v7v8v9v11v13v15v16v17v18v19v22v24v25v26v27v28v29v30v31v32v33v35v36v38v40v42v43v46v51v53v55v57v62v64v66v68v70v72v78 (I11)
+# k14k15k57 + k16k57 + k23k24k57 + k34k57 + k35k40k57k61 + k40k57k59 + k40k57k61 + k40k59 + k43k57 + k44 + k51k57 + k52k57 + k57k59k60 + k57k61 + k57k67 + k57k68k69 + k57k70 + k57 + k59 + k69k70 + k71 + 1
+# f(k58 = 1) = k(14)*k(15)*k(57) + k(16)*k(57) + k(23)*k(24)*k(57) + k(34)*k(57) + k(35)*k(40)*k(57)*k(61) + k(40)*k(57)*k(59) + k(40)*k(57)*k(61) + k(40)*k(59) + k(43)*k(57) + k(44) + k(51)*k(57) + k(52)*k(57) + k(57)*k(59)*k(60) + k(57)*k(61) + k(57)*k(67) + k(57)*k(68)*k(69) + k(57)*k(70) + k(57) + k(59) + k(69)*k(70) + k(71) + 1
+
+f9 = k(14)*k(15)*k(57) + k(16)*k(57) + k(23)*k(24)*k(57) + k(34)*k(57) + k(35)*k(40)*k(57)*k(61) + k(40)*k(57)*k(59) + k(40)*k(57)*k(61) + k(40)*k(59) + k(43)*k(57) + k(44) + k(51)*k(57) + k(52)*k(57) + k(57)*k(59)*k(60) + k(57)*k(61) + k(57)*k(67) + k(57)*k(68)*k(69) + k(57)*k(70) + k(57) + k(59) + k(69)*k(70) + k(71) + 1;
+
+
+
+Round_815 Poly with degree = 0, number of terms = 22; - No.48 Cube: v0v1v2v3v4v5v6v7v8v9v11v13v15v16v17v18v19v22v24v25v26v27v28v29v30v31v32v33v35v38v40v42v43v46v51v53v55v57v60v61v62v64v66v68v70v72v78 (I11)
+# k25k35k61 + k25k37k61 + k25k50k57k61 + k25k57k61 + k25k61 + k35k40k50k57k61 + k35k40k57k61 + k35k40 + k35 + k37k40k61 + k37k40 + k40k50k57k61 + k40k50k57 + k40k57k61 + k40k57 + k40k61 + k46 + k50k57 + k57 + k61 + k71k72 + k73
+# f(k58 = 1) = k(25)*k(35)*k(61) + k(25)*k(37)*k(61) + k(25)*k(50)*k(57)*k(61) + k(25)*k(57)*k(61) + k(25)*k(61) + k(35)*k(40)*k(50)*k(57)*k(61) + k(35)*k(40)*k(57)*k(61) + k(35)*k(40) + k(35) + k(37)*k(40)*k(61) + k(37)*k(40) + k(40)*k(50)*k(57)*k(61) + k(40)*k(50)*k(57) + k(40)*k(57)*k(61) + k(40)*k(57) + k(40)*k(61) + k(46) + k(50)*k(57) + k(57) + k(61) + k(71)*k(72) + k(73)
+
+f10 = k(25)*k(35)*k(61) + k(25)*k(37)*k(61) + k(25)*k(50)*k(57)*k(61) + k(25)*k(57)*k(61) + k(25)*k(61) + k(35)*k(40)*k(50)*k(57)*k(61) + k(35)*k(40)*k(57)*k(61) + k(35)*k(40) + k(35) + k(37)*k(40)*k(61) + k(37)*k(40) + k(40)*k(50)*k(57)*k(61) + k(40)*k(50)*k(57) + k(40)*k(57)*k(61) + k(40)*k(57) + k(40)*k(61) + k(46) + k(50)*k(57) + k(57) + k(61) + k(71)*k(72) + k(73);
+
+
+
+Round_815 Poly with degree = 0, number of terms = 13; - No.191 Cube: v0v1v2v3v4v5v6v8v9v10v13v15v16v17v18v19v21v23v25v27v30v31v32v33v36v39v41v46v47v50v52v54v56v58v60v63v65v67v69v71v73v74v75v79 (I9)
+# k20k47 + k20k72k73 + k20k74 + k45k46k47 + k45k46k72k73 + k45k46k74 + k47k72k73 + k47k74 + k49 + k72k73 + k74k75 + k74 + k76
+# f(k58 = 1) = k(20)*k(47) + k(20)*k(72)*k(73) + k(20)*k(74) + k(45)*k(46)*k(47) + k(45)*k(46)*k(72)*k(73) + k(45)*k(46)*k(74) + k(47)*k(72)*k(73) + k(47)*k(74) + k(49) + k(72)*k(73) + k(74)*k(75) + k(74) + k(76) 
+
+f11 = k(20)*k(47) + k(20)*k(72)*k(73) + k(20)*k(74) + k(45)*k(46)*k(47) + k(45)*k(46)*k(72)*k(73) + k(45)*k(46)*k(74) + k(47)*k(72)*k(73) + k(47)*k(74) + k(49) + k(72)*k(73) + k(74)*k(75) + k(74) + k(76)
